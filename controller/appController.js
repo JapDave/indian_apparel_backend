@@ -52,7 +52,7 @@ const Contact = async (req, res) => {
   let thnxMail=MailGenerator.generate(response2);
   let message = {
     from: EMAIL,
-    to: " dhruv@teamflourish.co",
+    to: "Apparel.lifestyle@gmail.com",
     subject: "Contact form",
     html: mail,
   };
